@@ -58,8 +58,7 @@ my_santiago_info.to_csv('my_santiago_info.csv', index=False)
 my_info = r'csvs/my_santiago_info.csv'
 my_info = pd.read_csv(my_info)
 
-my_fases = list(my_info["fase_comuna"])
-my_comunas = list(my_info["nombre_comuna"])
+
 mymap = folium.Map(location=[-33.40, -70.60],
                    zoom_start=12,)
 
@@ -79,11 +78,7 @@ mymap = folium.Map(location=[-33.40, -70.60],
                    zoom_start=12, tiles='Stamen Terrain')
 
 
-def color_layout(fase):
-    if fase == '2':
-        return 'red'
-    if fase == '1':
-        return 'blue'
+
 
 
 fg = folium.FeatureGroup(name='Establecimientos')
