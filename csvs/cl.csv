@@ -1,0 +1,74 @@
+city,lat,lng,country,iso2,admin_name,capital,population,population_proper
+Santiago,-33.4500,-70.6667,Chile,CL,Región Metropolitana,primary,7007000,236453
+Antofagasta,-23.6464,-70.3980,Chile,CL,Antofagasta,admin,380695,380695
+Viña del Mar,-33.0244,-71.5517,Chile,CL,Valparaíso,,332875,332875
+Valparaíso,-33.0458,-71.6197,Chile,CL,Valparaíso,admin,296655,296655
+Temuco,-38.7399,-72.5901,Chile,CL,Araucanía,admin,282415,282415
+San Bernardo,-33.6000,-70.7000,Chile,CL,Región Metropolitana,minor,246762,241138
+Puerto Montt,-41.4718,-72.9396,Chile,CL,Los Lagos,admin,245902,245902
+Rancagua,-34.1654,-70.7398,Chile,CL,Libertador General Bernardo O’Higgins,admin,231370,231370
+La Serena,-29.9027,-71.2520,Chile,CL,Coquimbo,admin,221054,221054
+Los Ángeles,-37.4707,-72.3517,Chile,CL,Biobío,minor,218000,218000
+Concepción,-36.8271,-73.0503,Chile,CL,Biobío,admin,217537,217537
+Coquimbo,-29.9532,-71.3380,Chile,CL,Coquimbo,minor,204068,204068
+Arica,-18.4784,-70.3211,Chile,CL,Arica y Parinacota,admin,202131,202131
+Talca,-35.4550,-71.6700,Chile,CL,Maule,admin,197479,175088
+Iquique,-20.2141,-70.1524,Chile,CL,Tarapacá,admin,188003,188003
+Chillán,-36.6067,-72.1033,Chile,CL,Biobío,admin,164270,164270
+Calama,-22.4624,-68.9272,Chile,CL,Antofagasta,minor,157575,157575
+Copiapó,-27.3665,-70.3323,Chile,CL,Atacama,admin,150804,150804
+Valdivia,-39.8142,-73.2459,Chile,CL,Los Ríos,admin,150048,150048
+Quilpué,-33.0498,-71.4415,Chile,CL,Valparaíso,minor,147991,147991
+Talcahuano,-36.7145,-73.1141,Chile,CL,Biobío,,147831,147831
+Osorno,-40.5667,-73.1500,Chile,CL,Los Lagos,minor,147460,147460
+Curicó,-34.9854,-71.2394,Chile,CL,Maule,minor,125275,125275
+Villa Alemana,-33.0428,-71.3744,Chile,CL,Valparaíso,,125140,125140
+Punta Arenas,-53.1627,-70.9081,Chile,CL,Magallanes y de la Antártica Chilena,admin,123403,123403
+Coronel,-37.0300,-73.1600,Chile,CL,Biobío,,92940,64249
+Quillota,-32.8799,-71.2474,Chile,CL,Valparaíso,minor,90517,90517
+San Antonio,-33.5809,-71.6132,Chile,CL,Valparaíso,minor,86239,86239
+Ovalle,-30.6031,-71.2030,Chile,CL,Coquimbo,minor,75864,75864
+Linares,-35.8454,-71.5979,Chile,CL,Maule,minor,73602,73602
+Los Andes,-32.8337,-70.5982,Chile,CL,Valparaíso,minor,68093,68093
+San Felipe,-32.7507,-70.7251,Chile,CL,Valparaíso,minor,64120,64120
+San Fernando,-34.5839,-70.9891,Chile,CL,Libertador General Bernardo O’Higgins,minor,58367,58367
+Angol,-37.7988,-72.7086,Chile,CL,Araucanía,minor,53262,53262
+Coyhaique,-45.5712,-72.0685,Chile,CL,Aysén,admin,49667,49667
+Vallenar,-28.5700,-70.7600,Chile,CL,Atacama,minor,44895,30858
+Lota,-37.0944,-73.1563,Chile,CL,Biobío,,43272,43272
+Tomé,-36.6171,-72.9575,Chile,CL,Biobío,,42312,42312
+Alerce,-41.3969,-72.9037,Chile,CL,Los Lagos,,42267,42267
+Constitución,-35.3296,-72.4200,Chile,CL,Maule,,37917,15888
+Lampa,-33.2864,-70.8729,Chile,CL,Región Metropolitana,,37599,37599
+Castro,-42.4824,-73.7643,Chile,CL,Los Lagos,minor,33417,33417
+Villarrica,-39.2800,-72.2300,Chile,CL,Araucanía,,31602,2034
+Cauquenes,-35.9671,-72.3154,Chile,CL,Maule,minor,31362,16948
+Curanilahue,-37.4800,-73.3400,Chile,CL,Biobío,,30611,14094
+San Javier,-35.5924,-71.7353,Chile,CL,Maule,,29017,29017
+Ancud,-41.8682,-73.8287,Chile,CL,Los Lagos,,28162,28162
+Chillán Viejo,-36.6229,-72.1317,Chile,CL,Biobío,,27359,27359
+La Unión,-40.2952,-73.0822,Chile,CL,Los Ríos,minor,26517,26517
+Puerto Varas,-41.3178,-72.9827,Chile,CL,Los Lagos,,26172,26172
+Victoria,-38.2395,-72.3400,Chile,CL,Araucanía,,24555,11424
+Tocopilla,-22.0941,-70.2010,Chile,CL,Antofagasta,minor,24460,20251
+Lebu,-37.6103,-73.6561,Chile,CL,Biobío,minor,22345,10904
+Casablanca,-33.3167,-71.4167,Chile,CL,Valparaíso,,21874,21874
+Illapel,-31.6327,-71.1683,Chile,CL,Coquimbo,minor,20751,20751
+Salamanca,-31.7796,-70.9800,Chile,CL,Coquimbo,,20214,13265
+La Ligua,-32.4494,-71.2317,Chile,CL,Valparaíso,minor,19127,19127
+Puerto Natales,-51.7263,-72.5062,Chile,CL,Magallanes y de la Antártica Chilena,minor,19023,19023
+Puerto Aysén,-45.4068,-72.6977,Chile,CL,Aysén,minor,17441,17441
+Pichilemu,-34.3851,-72.0049,Chile,CL,Libertador General Bernardo O’Higgins,minor,12776,12776
+Pozo Almonte,-20.2597,-69.7862,Chile,CL,Tarapacá,minor,9277,9277
+Hanga Roa,-27.1492,-109.4323,Chile,CL,Valparaíso,minor,7163,7163
+Porvenir,-53.2956,-70.3687,Chile,CL,Magallanes y de la Antártica Chilena,minor,5992,5992
+Chile Chico,-46.5376,-71.7293,Chile,CL,Aysén,minor,3129,3129
+Cochrane,-47.2539,-72.5732,Chile,CL,Aysén,minor,2789,2789
+Puerto Williams,-54.9341,-67.6109,Chile,CL,Magallanes y de la Antártica Chilena,minor,1868,1868
+Chaitén,-42.9165,-72.7084,Chile,CL,Los Lagos,minor,1639,1639
+Puente Alto,-33.6117,-70.5758,Chile,CL,Región Metropolitana,minor,,
+Talagante,-33.6639,-70.9273,Chile,CL,Región Metropolitana,minor,,
+Colina,-33.2044,-70.6747,Chile,CL,Región Metropolitana,minor,,
+Melipilla,-33.6855,-71.2146,Chile,CL,Región Metropolitana,minor,,
+Chañaral,-26.3479,-70.6224,Chile,CL,Atacama,minor,,
+Putre,-18.1964,-69.5592,Chile,CL,Arica y Parinacota,minor,,
