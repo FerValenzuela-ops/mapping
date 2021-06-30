@@ -16,26 +16,26 @@ con = mysql.connector.connect(
 
 cursor = con.cursor(buffered=True)
 
-# print('Hola, porfavor ingresa los datos de tu negocio. ')
-# nombre_establecimiento = input('Ingresa el nombre: ').capitalize()
-# direccion_establecimiento = input('Ingresa la direccion: ').capitalize()
-# comuna_establecimiento = input('Ingresa la comuna: ').capitalize()
-# horario_establecimiento = input('Ingresa el horario atencion: ').capitalize()
+print('Hola, porfavor ingresa los datos de tu negocio. ')
+nombre_establecimiento = input('Ingresa el nombre: ').capitalize()
+direccion_establecimiento = input('Ingresa la direccion: ').capitalize()
+comuna_establecimiento = input('Ingresa la comuna: ').capitalize()
+horario_establecimiento = input('Ingresa el horario atencion: ').capitalize()
 
 
-# coordenadas = nom.geocode(f'{direccion_establecimiento}, {comuna_establecimiento}')
-# latitud = coordenadas.latitude
-# longitud = coordenadas.longitude
+coordenadas = nom.geocode(f'{direccion_establecimiento}, {comuna_establecimiento}')
+latitud = coordenadas.latitude
+longitud = coordenadas.longitude
 
 
-# query1 = cursor.execute(f"select comunas.fase_comuna from establecimientos.comunas where nombre_comuna = '{comuna_establecimiento}';")
-# fasecomuna = list(*cursor.fetchall())
+query1 = cursor.execute(f"select comunas.fase_comuna from establecimientos.comunas where nombre_comuna = '{comuna_establecimiento}';")
+fasecomuna = list(*cursor.fetchall())
 
 
-# query = cursor.execute("INSERT INTO establecimientos.negocios(nombre,direccion,comuna,horario,latitud,longitud,fasecomuna)"
-#             f"VALUES('{nombre_establecimiento}','{direccion_establecimiento}','{comuna_establecimiento}' , '{horario_establecimiento}' ,  '{latitud}' , '{longitud}', '{fasecomuna[0]}' )")
+query = cursor.execute("INSERT INTO establecimientos.negocios(nombre,direccion,comuna,horario,latitud,longitud,fasecomuna)"
+            f"VALUES('{nombre_establecimiento}','{direccion_establecimiento}','{comuna_establecimiento}' , '{horario_establecimiento}' ,  '{latitud}' , '{longitud}', '{fasecomuna[0]}' )")
 
-# con.commit()
+con.commit()
 
 
 df = pd.read_sql('SELECT * FROM negocios', con=con)
